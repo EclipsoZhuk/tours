@@ -157,7 +157,7 @@ $(document).ready(function () {
         <ul class="list_ok">
             ${data.tags.map((item) => `<li>${item}</li>`).join("")}
         </ul>
-        <small>*Free for children under 8 years old</small>
+        <small>*Free for children under 6 years old</small>
     `;
 
     $(container).append(priceBox);
