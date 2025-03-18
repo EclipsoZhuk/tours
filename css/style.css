@@ -735,8 +735,8 @@ a#email_footer:before {
 #copy {
   color: #7c7c7c;
   position: relative;
-  top: -12px;
-  left: 20px;
+  top: 10px;
+  left: 0px;
   font-size: 12px;
 }
 
