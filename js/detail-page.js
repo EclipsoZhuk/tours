@@ -122,11 +122,14 @@ $(document).ready(function () {
     list.forEach((step) => {
       const imgSrc = CLOUD_URL + step.image;
 
+      // <time class="cbp_tmtime" datetime="${step.time}">
+      //   <span>${step.duration}</span>
+      //   <span>${step.time}</span>
+      // </time>;
+
       const programItem = `
         <li>
-            <time class="cbp_tmtime" datetime="${step.time}"
-                ><span>${step.duration}</span><span>${step.time}</span>
-            </time>
+            
             <div class="cbp_tmicon">${step.step}</div>
             <div class="cbp_tmlabel">
                 <div class="hidden-xs">
